@@ -67,7 +67,7 @@ export default function Logo(props: Props): JSX.Element {
 
   return (
     <Link
-      to={logoLink}
+      to={"/home"}
       {...propsRest}
       {...(logo?.target && {target: logo.target})}>
       {logo && (
